@@ -1,0 +1,367 @@
+table{
+    
+    border-style: solid;
+    border-color: black;
+}
+
+/*    exercice 01    */
+
+#orange {
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+#beige {
+    background-color: beige;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+#marron {
+    background-color: maroon;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+/*     exercice 02     */
+
+#exo2color1{
+    background-color: #DCDCDC;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}   
+#exo2color2{
+    background-color: #C0C0C0;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+} 
+#exo2color3{
+    background-color:#808080;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+#exo2color4{
+    background-color:black;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+/*     exercice03     */
+
+#exo3color1{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    padding: 5px;   
+}
+
+#exo3color2{
+    background-color: pink;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+#exo3color3{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.gauche3{
+    background-color: red;
+    width: 1px;
+    height: 30px;
+}
+
+.gauche2{
+    background-color: pink;
+    width: 1px;
+    height: 30px;
+}
+
+.bottom2{
+    background-color: pink;
+    width: 30px;
+    height: 1px;
+}
+
+.bottom3{
+    background-color: red;
+    width: 30px;
+    height: 1px;
+}
+.top2{
+    background-color: pink;
+    width: 30px;
+    height: 1px;
+}
+
+.top3{
+    background-color: red;
+    width: 30px;
+    height: 1px;
+}
+
+#gauchetop{
+    background-color: red;
+
+    width: 1px;
+    height: 1px;
+}
+
+#gauchebottom{
+    background-color: red;
+
+    width: 1px;
+    height: 1px;
+}
+
+/*     exercice04     */
+
+.triangleRed{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid red;
+    border-bottom : 87px solid transparent;
+}
+
+.triangleRed2{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid red;
+    border-bottom : 87px solid transparent;
+    bottom: 300px;
+    position: relative;
+}
+.triangleCyan{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid cyan;
+
+}
+
+.triangleCyan2{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid Cyan;
+    bottom: 300px;
+    position: relative;
+}
+
+.triangleVert{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid green;
+    border-bottom : 87px solid transparent;
+    bottom: 100px;
+    position: relative;
+}
+
+.triangleVert2{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid green;
+    border-bottom : 87px solid transparent;
+    bottom: 400px;
+    position: relative;
+}
+
+.triangleMauve{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid violet;
+    bottom  : 100px;
+    position: relative;
+}
+
+.triangleMauve2{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid violet;
+    bottom: 400px;
+
+    position: relative;
+}
+/*                    */
+.triangleOrange{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid orange;
+    border-bottom : 87px solid transparent;
+    bottom: 200px;
+    position: relative;
+}
+
+.triangleOrange2{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid orange;
+    border-bottom : 87px solid transparent;
+    bottom: 500px;
+    position: relative;
+
+}
+
+.triangleJaune{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid yellow;
+    bottom: 200px;
+    position: relative;
+
+}
+
+.triangleJaune2{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid yellow;
+    bottom: 500px;
+    position: relative;
+}
+
+.triangleRed3{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid red;
+    border-bottom : 87px solid transparent;
+    bottom: 600px;
+    position: relative;
+}
+
+.triangleCyan3{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid cyan;
+    bottom: 600px;
+    position: relative;
+
+
+}
+
+.triangleVert3{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid green;
+    border-bottom : 87px solid transparent;
+    bottom: 100px;
+    position: relative;
+    bottom: 700px;
+
+}
+
+.triangleMauve3{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid violet;
+    bottom  : 100px;
+    position: relative;
+    bottom: 700px;
+
+}
+
+.triangleOrange3{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-right : 150px solid orange;
+    border-bottom : 87px solid transparent;
+    bottom: 200px;
+    position: relative;
+    bottom: 800px;
+
+}
+
+
+.triangleJaune3{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 87px solid transparent;
+    border-bottom : 87px solid transparent;
+    border-left : 150px solid yellow;
+    bottom: 200px;
+    position: relative;
+    bottom: 800px;
+
+}
+
+
